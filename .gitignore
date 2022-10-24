@@ -6,7 +6,7 @@
 *.njsproj
 *.sln
 
-node_modules/**
+node_modules
 /coverage/
 .pnpm-debug
 package-lock.json
