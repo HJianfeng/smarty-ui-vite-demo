@@ -1,5 +1,5 @@
-import { App } from "vue";
-import { Button } from "./components/Button";
+import { App } from 'vue';
+import { Button } from './components/Button';
 
 const componentList = { Button };
 
@@ -13,5 +13,5 @@ export default {
       const com = componentList[key];
       app.component(com.name, com);
     }
-  },
+  }
 };

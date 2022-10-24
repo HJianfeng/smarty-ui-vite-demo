@@ -1,8 +1,8 @@
 import { createApp } from 'vue/dist/vue.cjs';
-import SmartyUI from "./entry";
+import SmartyUI from './entry';
 
 createApp({
-  template:`
+  template: `
   <div>
     <SButton color="blue">蓝色按钮</SButton>
     <SButton color="green">绿色按钮</SButton>
@@ -12,5 +12,5 @@ createApp({
  </div>
   `
 })
-.use(SmartyUI)
-.mount("#app");
+  .use(SmartyUI)
+  .mount('#app');
