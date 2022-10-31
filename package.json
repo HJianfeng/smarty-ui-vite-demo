@@ -1,8 +1,10 @@
 {
   "name": "smarty-ui-vite-demo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
+  "module": "./dist/smarty-ui.esm.js",
+  "homepage": "https://smarty-ui-vite-demo.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
